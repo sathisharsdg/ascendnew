@@ -1,7 +1,7 @@
 $white:#fff;
 $black:#000; 
 $green:#14cf43;
-$padding-common:4em 1em;
+$padding-common:8em 1em;
 $form-padding:2em 0;
 $green-bg:#8eb743;
  
@@ -14,9 +14,7 @@ $green-bg:#8eb743;
   *::after {
     box-sizing: border-box;
   }  
-  .common-padding{
-    padding: 4em 1em;
-  }
+  
 .white-head1 {
     color: #fff;
     font-size: 4rem;

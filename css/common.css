@@ -9,10 +9,6 @@
           box-sizing: border-box;
 }
 
-.common-padding {
-  padding: 4em 1em;
-}
-
 .white-head1 {
   color: #fff;
   font-size: 4rem;
@@ -121,7 +117,7 @@ h1.head:before {
 }
 
 .common-padding {
-  padding: 4em 1em;
+  padding: 8em 1em;
 }
 
 div#carousel {
