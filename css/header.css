@@ -1,0 +1,126 @@
+/*Heder CSS Start*/
+.navbar {
+  background: #f8f8f8;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-box-shadow: -1px 2px 17px 2px #0000001c;
+          box-shadow: -1px 2px 17px 2px #0000001c;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #131313;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #1ebdc2;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-right: 1px solid #a9a9a9;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  background: #8BC34A;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #2b2b2b  !important;
+}
+
+.main-menu .container-fluid {
+  padding: 0 7em;
+}
+
+.sm-menu {
+  border-radius: 0px;
+  border: 0px;
+  top: 97%;
+  -webkit-box-shadow: rgba(52, 57, 50, 0.21) 0px 4px 8px 7px;
+          box-shadow: rgba(52, 57, 50, 0.21) 0px 4px 8px 7px;
+}
+
+.dropdown-item {
+  color: #3c3c3c;
+  font-size: 1.4rem;
+  padding: .5em 0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #2196F3;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-tog {
+  color: #1ebdc2;
+}
+
+.megamenu-li {
+  position: static;
+}
+
+.megamenu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.megamenu h6 {
+  margin-left: 21px;
+}
+
+.megamenu i {
+  width: 2rem;
+  padding: 0 2em 0 1em;
+  color: #797979;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 580px) {
+  .main-menu .container-fluid {
+    padding: 0 0em;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* .fixed-header  {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+       
+  }
+  .fixed-header .main-menu .container-fluid{
+    padding: 0 7em;
+  } */
+/*Header CSS End*/
+/*# sourceMappingURL=header.css.map */

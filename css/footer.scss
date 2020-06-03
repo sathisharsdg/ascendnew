@@ -1,0 +1,29 @@
+$white:#fff;
+$black:#000; 
+$green:#14cf43;
+.footer-area {
+    background-image: url(images/footer-bg.jpg);
+    height: 100%;
+    background-position: center;
+    padding: 4em 0 0em 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .footer-big {
+        padding: 3em 0;
+    }
+    .mini-footer.mt-2 {
+        background-color: #131313;
+        padding: 1em 0;
+    }
+    p,a,span{
+        color:$white;
+       line-height: 2.5rem;
+        font-size: 1.4rem;
+    }  
+   .footer-widget-title {
+        color: #b8da14;
+        font-size: 2rem;
+        padding: 1em 0;
+    }
+}
